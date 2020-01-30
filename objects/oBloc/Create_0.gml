@@ -1,0 +1,1 @@
+objAttached = noone;

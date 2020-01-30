@@ -1,0 +1,1 @@
+draw_text_transformed(x, y, string(global.NUM_BLOCS_PATH), 2, 2, 0);

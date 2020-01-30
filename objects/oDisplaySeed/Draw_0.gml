@@ -1,0 +1,1 @@
+draw_text_transformed(x, y, string(global.SEED), 2, 2, 0);
