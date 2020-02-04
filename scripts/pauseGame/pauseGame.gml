@@ -11,20 +11,14 @@ global.PAUSE = true;
 var cameraCenterX = getCameraCenterX();
 var cameraCenterY = getCameraCenterY();
 
-if not oGame.gameWin and not oGame.gameOver 
-	instance_create_layer(
-		cameraCenterX, cameraCenterY - 100, 
-		"Interface", oContinueButton);	
+if not oGame.gameWin and not oGame.gameOver {
+	instance_create_layer(cameraCenterX, cameraCenterY - 100, "Interface", oContinueButton);	
+}
 
-if oGame.gameWin 
-	instance_create_layer(
-		cameraCenterX, cameraCenterY + 100, 
-		"Interface", oNextLevelButton);
-else 
-	instance_create_layer(
-		cameraCenterX, cameraCenterY + 100, 
-		"Interface", oRestartButton);
+if oGame.gameWin {
+	instance_create_layer(cameraCenterX, cameraCenterY + 100, "Interface", oNextLevelButton);
+} else { 
+	instance_create_layer(cameraCenterX, cameraCenterY + 100, "Interface", oRestartButton);
+}
 
-instance_create_layer(
-	cameraCenterX, cameraCenterY + 300, 
-	"Interface", oMainMenuButton);
+instance_create_layer(cameraCenterX, cameraCenterY + 300, "Interface", oMainMenuButton);

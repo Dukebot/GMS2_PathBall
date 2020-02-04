@@ -1,23 +1,23 @@
 {
-    "id": "6ad51722-846c-42ab-8a7b-363596aa1cb3",
+    "id": "6e845fc5-3fc9-47f1-8aa6-ecef2789ab34",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oNextLevelButton",
+    "name": "oNextLevelButtonOld",
     "eventList": [
         {
-            "id": "bff09154-ba70-4ad5-9e0e-77bbb5cbd9d5",
+            "id": "0111c2fa-e076-4081-80af-355ac399f8bf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 7,
             "eventtype": 6,
-            "m_owner": "6ad51722-846c-42ab-8a7b-363596aa1cb3"
+            "m_owner": "6e845fc5-3fc9-47f1-8aa6-ecef2789ab34"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "15246584-2f85-4de9-b10b-8f8435651271",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

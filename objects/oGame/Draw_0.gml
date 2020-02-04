@@ -1,3 +1,6 @@
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
 //Draw blocs remaining
 draw_text_transformed(
 	getCameraX() + 10, getCameraY() + 10, 
@@ -26,14 +29,15 @@ if instance_exists(oPlayer) {
 	);
 }
 
-if DrawSolution { drawSolution(); } 
+if DrawSolution { 
+	drawSolution(); 
+} 
 
 if gameWin {
-	draw_text_transformed(
-		getCameraCenterX() - 200, 
-		getCameraCenterY() - 300, 
-		"You Win",
-		8, 8, 0
+	drawSprite(sGameWin, 
+		getCameraCenterX(), 
+		getCameraCenterY() - 200, 
+		2, 2
 	);
 }
 

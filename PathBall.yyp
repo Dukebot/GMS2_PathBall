@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "6ad51722-846c-42ab-8a7b-363596aa1cb3",
+            "Value": {
+                "id": "f6749be0-2848-4806-8f24-a0a16677304b",
+                "resourcePath": "objects\\oNextLevelButton\\oNextLevelButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6b6575d1-572d-4a72-a4f4-2838d502ea22",
             "Value": {
                 "id": "d168a47f-64b1-45e1-a721-6f6da672a8a8",
@@ -714,7 +722,7 @@
             "Key": "6e845fc5-3fc9-47f1-8aa6-ecef2789ab34",
             "Value": {
                 "id": "82d75127-1a11-4761-a49f-6dbfb4ac3487",
-                "resourcePath": "objects\\oNextLevelButton\\oNextLevelButton.yy",
+                "resourcePath": "objects\\oNextLevelButtonOld\\oNextLevelButtonOld.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1372,6 +1380,14 @@
                 "id": "011744d5-77e1-44c3-93dd-77afb2238a20",
                 "resourcePath": "views\\ce8ff10c-5eb3-4eb8-a436-359dd6e2f25c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cfd5c3ec-fc96-445f-a71c-21dbf652f053",
+            "Value": {
+                "id": "e069221b-cbb7-4e84-9195-03ac07f41356",
+                "resourcePath": "sprites\\sGameWin\\sGameWin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
