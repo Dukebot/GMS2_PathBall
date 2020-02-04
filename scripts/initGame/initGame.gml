@@ -10,7 +10,7 @@ print("PAUSE = " + string(global.PAUSE));
 global.GRAVITY = 0.3;
 print("GRAVITY = " + string(global.GRAVITY));
 
-global.BACKGROUND_MUSIC = true;
+global.BACKGROUND_MUSIC = false;
 print("BACKGROUND_MUSIC = " + string(global.BACKGROUND_MUSIC));
 
 
