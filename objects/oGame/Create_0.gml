@@ -9,7 +9,7 @@ DrawSolution = false;
 gameWin = false;
 gameOver = false;
 
-instance_create_layer(0, 0, "Instances", oPauseButton);
+instance_create_layer(0, 0, "Interface", oPauseButton);
 instance_create_layer(0, 0, "Instances", oInput);
 instance_create_layer(0, 0, "Instances", oErrorChecker);
 

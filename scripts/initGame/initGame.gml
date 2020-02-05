@@ -13,6 +13,10 @@ print("GRAVITY = " + string(global.GRAVITY));
 global.BACKGROUND_MUSIC = false;
 print("BACKGROUND_MUSIC = " + string(global.BACKGROUND_MUSIC));
 
+global.DRAW_SOLUTION = false;
+print("DRAW_SOLUTION = " + string(global.DRAW_SOLUTION));
+
+
 
 // PLAYER
 global.PLAYER_MAX_MOVEMENT_SPEED = 4;
@@ -69,6 +73,8 @@ global.PATH_MARGIN_X = 5;
 print("PATH_MARGIN_X = " + string(global.PATH_MARGIN_X));
 
 ini_close();
+
+draw_set_font(fontConsole);
 
 if os_type == os_android {
 	if not achievement_login_status() achievement_login();
