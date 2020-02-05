@@ -13,5 +13,11 @@ groundX1 = offsetX - room_width;
 groundX2 = offsetX + 2*room_width
 
 // Draw background sprite streched to those 4 points
-draw_sprite_pos(sBackground, horizonX1, horizonY, horizonX2, 
-	horizonY, groundX2, groundY, groundX1, groundY, c_white, 1);
+draw_sprite_pos(
+	sBackground, 
+	horizonX1, horizonY, 
+	horizonX2, horizonY, 
+	groundX2, groundY, 
+	groundX1, groundY, 
+	c_white, 1
+);

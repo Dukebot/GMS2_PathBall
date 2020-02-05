@@ -1,7 +1,8 @@
-if instance_exists(oNextLevelButton)
-or instance_exists(oContinueButton)
-or instance_exists(oRestartButton)
-or instance_exists(oMainMenuButton) {
+if (instance_exists(oNextLevelButton)
+	or instance_exists(oContinueButton)
+	or instance_exists(oRestartButton)
+	or instance_exists(oMainMenuButton) 
+) {
 	exception("Trying to create pause menu buttons when they already exist");
 }
 
