@@ -3,7 +3,7 @@
     "modelName": "GMAndroidOptions",
     "mvc": "1.0",
     "name": "Android",
-    "option_android_application_tag_inject": null,
+    "option_android_application_tag_inject": "",
     "option_android_arch_arm64": true,
     "option_android_arch_armv7": true,
     "option_android_arch_x86": false,
@@ -41,7 +41,7 @@
     "option_android_install_location": 0,
     "option_android_interpolate_pixels": true,
     "option_android_lint": false,
-    "option_android_minimum_sdk": "16",
+    "option_android_minimum_sdk": "18",
     "option_android_orient_landscape": true,
     "option_android_orient_landscape_flipped": true,
     "option_android_orient_portrait": false,
@@ -70,7 +70,7 @@
     "option_android_tv_isgame": true,
     "option_android_use_facebook": false,
     "option_android_version": {
-        "build": 4,
+        "build": 5,
         "major": 0,
         "minor": 0,
         "revision": 0
