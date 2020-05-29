@@ -16,7 +16,7 @@ draw_text_transformed(
 );
 	
 //Draw player pos X and posY
-if instance_exists(oPlayer) {
+/*if instance_exists(oPlayer) {
 	draw_text_transformed(
 		getCameraX() + 10, getCameraY() + 90, 
 		"PlayerX: " + string(oPlayer.x),
@@ -27,7 +27,7 @@ if instance_exists(oPlayer) {
 		"PlayerY: " + string(room_height - oPlayer.y),
 		2, 2, 0
 	);
-}
+}*/
 
 if DrawSolution { 
 	drawSolution(); 

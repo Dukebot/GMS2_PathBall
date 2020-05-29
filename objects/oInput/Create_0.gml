@@ -1,1 +1,0 @@
-playerDirectionX = 0;
